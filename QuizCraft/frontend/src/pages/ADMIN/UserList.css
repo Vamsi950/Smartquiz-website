@@ -1,0 +1,89 @@
+.user-list-card {
+  background: #ffffff;
+  border-radius: 32px;
+  border: 1px solid #f1f5f9;
+  padding: 40px;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+}
+
+.admin-table th {
+  padding: 0 24px;
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.admin-table tbody tr {
+  background: #f8fafc;
+  transition: all 0.3s ease;
+}
+
+.admin-table tbody tr:hover {
+  transform: scale(1.005);
+  background: #f1f5f9;
+}
+
+.admin-table td {
+  padding: 20px 24px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.admin-table td:first-child {
+  border-radius: 16px 0 0 16px;
+}
+
+.admin-table td:last-child {
+  border-radius: 0 16px 16px 0;
+}
+
+.role-badge {
+  padding: 4px 12px;
+  border-radius: 100px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.role-badge.admin {
+  background: #fff1f2;
+  color: #e11d48;
+}
+
+.role-badge.user {
+  background: #eff6ff;
+  color: #71717a;
+}
+
+.btn-delete {
+  background: #fff1f2;
+  color: #e11d48;
+  border: 1px solid #ffe4e6;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-delete:hover {
+  background: #e11d48;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(225, 29, 72, 0.15);
+}

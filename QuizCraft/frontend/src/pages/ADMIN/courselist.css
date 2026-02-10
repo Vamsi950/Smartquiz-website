@@ -1,0 +1,93 @@
+.add-course-featured {
+  background: #18181b;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.4);
+}
+
+.admin-add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 500px;
+}
+
+.input-group-pro {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 1.2rem;
+}
+
+.admin-add-form input {
+  width: 100%;
+  padding: 16px 16px 16px 52px;
+  background: #09090b;
+  border: 1px solid #27272a;
+  color: #ffffff;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.admin-add-form input:focus {
+  outline: none;
+  border-color: #71717a;
+  background: #18181b;
+  box-shadow: 0 0 0 4px rgba(113, 113, 122, 0.1);
+}
+
+.error-text-pro {
+  color: #e11d48;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.course-item-card {
+  padding: 32px;
+}
+
+.course-actions-mini {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.btn-secondary-pro {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  background: #27272a;
+  color: #a1a1aa;
+  border: 1px solid #3f3f46;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-secondary-pro:hover {
+  background: #71717a;
+  color: white;
+  border-color: #71717a;
+  transform: translateY(-2px);
+}
+
+/* courselist.css - Specific overrides only */
+
+/* Specific to courselist if any */
+.featured-content h2 span {
+  color: #71717a !important;
+}

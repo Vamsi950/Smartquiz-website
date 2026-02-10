@@ -1,0 +1,70 @@
+.leaderboard-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.leaderboard-title {
+  font-size: 3.5rem !important;
+  font-weight: 900 !important;
+  color: #ffffff !important;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -2px;
+}
+
+.dropdown-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.course-select {
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-weight: 600;
+  color: #475569;
+}
+
+.tablecontainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+  border: 1px solid #f1f5f9;
+}
+
+.leaderboard-table thead {
+  background-color: #f8fafc;
+  color: #64748b;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 24px;
+  text-align: center;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.leaderboard-table tbody tr:hover {
+  background-color: #f5f3ff;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-top: 40px;
+}

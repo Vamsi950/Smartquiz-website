@@ -1,0 +1,111 @@
+/* Global High-Visibility Dark Theme Master */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  background: #09090b !important;
+  /* Force Zinc Black */
+  color: #ffffff !important;
+  /* Force pure white */
+  font-family: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif !important;
+  overflow-x: hidden !important;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #09090b;
+}
+
+/* Master Layout Containers */
+.admin-container,
+.dashboard-container,
+.questions-container,
+.result-container,
+.home-container,
+.user-login-container,
+.admin-login-container,
+.user-registration-container,
+.admin-registration-container,
+.course-topics-container,
+.analytics-container {
+  display: flex !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+  background: #09090b !important;
+  color: #ffffff !important;
+}
+
+.admin-main-content,
+.main-content {
+  margin-left: 280px !important;
+  padding: 60px !important;
+  flex: 1 !important;
+  background: #09090b !important;
+}
+
+/* Global Heading Stability */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  text-shadow: none !important;
+  font-weight: 900 !important;
+}
+
+/* Link and Button Reset */
+a {
+  color: #a1a1aa;
+  text-decoration: none;
+}
+
+/* Mobile Sidebar & Responsive Logic */
+@media (max-width: 1200px) {
+
+  .admin-main-content,
+  .main-content {
+    margin-left: 100px !important;
+    padding: 40px 20px !important;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .sidebar,
+  .AdminSidebar_sidebar__* {
+    /* Handling potential CSS module naming if any */
+    position: fixed !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 280px !important;
+    height: 100vh !important;
+    z-index: 2000 !important;
+    transition: transform 0.3s ease !important;
+    background: #09090b !important;
+    border-right: 1px solid #18181b !important;
+  }
+
+  .sidebar.open {
+    left: 0 !important;
+    box-shadow: 10px 0 40px rgba(0, 0, 0, 0.5) !important;
+  }
+
+  .admin-main-content,
+  .main-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding: 80px 20px 40px !important;
+  }
+}

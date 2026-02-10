@@ -1,0 +1,554 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "name": "Computer Networks (CN)",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Networking Basics",
+            "questions": [
+              { "id": 1, "question": "What does LAN stand for?", "options": ["Local Area Network", "Large Area Network", "Long Area Network", "Low Area Network"], "answer": "Local Area Network" },
+              { "id": 2, "question": "Which protocol is used for email?", "options": ["HTTP", "SMTP", "FTP", "SSH"], "answer": "SMTP" },
+              { "id": 3, "question": "What is the default port for HTTP?", "options": ["80", "443", "21", "22"], "answer": "80" },
+              { "id": 4, "question": "Which device connects different networks?", "options": ["Router", "Switch", "Hub", "Bridge"], "answer": "Router" },
+              { "id": 5, "question": "Which protocol provides reliable data transfer?", "options": ["TCP", "UDP", "ICMP", "IP"], "answer": "TCP" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "IP Addressing",
+            "questions": [
+              { "id": 1, "question": "What is the length of an IPv4 address?", "options": ["32 bits", "64 bits", "128 bits", "16 bits"], "answer": "32 bits" },
+              { "id": 2, "question": "Which IP address is used for loopback testing?", "options": ["127.0.0.1", "192.168.1.1", "10.0.0.1", "255.255.255.255"], "answer": "127.0.0.1" },
+              { "id": 3, "question": "Which class of IP addresses supports the largest number of hosts?", "options": ["Class A", "Class B", "Class C", "Class D"], "answer": "Class A" },
+              { "id": 4, "question": "Which protocol dynamically assigns IP addresses?", "options": ["DNS", "ARP", "DHCP", "ICMP"], "answer": "DHCP" },
+              { "id": 5, "question": "What is the subnet mask for a Class C network?", "options": ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"], "answer": "255.255.255.0" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Network Security",
+            "questions": [
+              { "id": 1, "question": "What does VPN stand for?", "options": ["Virtual Private Network", "Very Personal Network", "Verified Public Network", "Variable Private Network"], "answer": "Virtual Private Network" },
+              { "id": 2, "question": "Which protocol is used for secure web browsing?", "options": ["HTTP", "HTTPS", "FTP", "DNS"], "answer": "HTTPS" },
+              { "id": 3, "question": "What is a firewall used for?", "options": ["Blocking unauthorized access", "Speeding up connections", "Providing wireless access", "Encrypting data"], "answer": "Blocking unauthorized access" },
+              { "id": 4, "question": "What does SSL stand for?", "options": ["Secure Sockets Layer", "Server Secure Login", "Software Secure Link", "Strong System Lock"], "answer": "Secure Sockets Layer" },
+              { "id": 5, "question": "Which encryption algorithm is widely used for secure data transmission?", "options": ["AES", "MD5", "SHA-256", "Base64"], "answer": "AES" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Routing and Switching",
+            "questions": [
+              { "id": 1, "question": "Which device operates at Layer 3 of the OSI model?", "options": ["Router", "Switch", "Hub", "Repeater"], "answer": "Router" },
+              { "id": 2, "question": "Which switching method is used to forward packets without error checking?", "options": ["Cut-through", "Store-and-forward", "Fragment-free", "Packet filtering"], "answer": "Cut-through" },
+              { "id": 3, "question": "Which routing protocol uses the shortest path first algorithm?", "options": ["OSPF", "RIP", "BGP", "EIGRP"], "answer": "OSPF" },
+              { "id": 4, "question": "Which device breaks collision domains?", "options": ["Switch", "Hub", "Repeater", "Modem"], "answer": "Switch" },
+              { "id": 5, "question": "Which routing protocol is used in the internet?", "options": ["BGP", "RIP", "OSPF", "EIGRP"], "answer": "BGP" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Wireless Networks",
+            "questions": [
+              { "id": 1, "question": "What does Wi-Fi stand for?", "options": ["Wireless Fidelity", "Wide Frequency", "Wired Free Internet", "Wireless Framework"], "answer": "Wireless Fidelity" },
+              { "id": 2, "question": "Which frequency band is used for Wi-Fi?", "options": ["2.4 GHz and 5 GHz", "1 GHz", "10 GHz", "500 MHz"], "answer": "2.4 GHz and 5 GHz" },
+              { "id": 3, "question": "What is the maximum theoretical speed of Wi-Fi 6?", "options": ["9.6 Gbps", "1 Gbps", "5 Gbps", "100 Mbps"], "answer": "9.6 Gbps" },
+              { "id": 4, "question": "Which security protocol is the most secure for Wi-Fi?", "options": ["WPA3", "WPA2", "WEP", "Open Wi-Fi"], "answer": "WPA3" },
+              { "id": 5, "question": "What is the purpose of an SSID?", "options": ["Identifies a wireless network", "Encrypts data", "Boosts signal strength", "Prevents hacking"], "answer": "Identifies a wireless network" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Operating Systems (OS)",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Process Management",
+            "questions": [
+              { "id": 1, "question": "What is a process?", "options": ["A program in execution", "A programming language", "An input device", "A memory location"], "answer": "A program in execution" },
+              { "id": 2, "question": "Which of the following is a process scheduling algorithm?", "options": ["FIFO", "Round Robin", "DFS", "LRU"], "answer": "Round Robin" },
+              { "id": 3, "question": "What is the purpose of a process control block (PCB)?", "options": ["Stores process information", "Manages network traffic", "Controls memory allocation", "Handles CPU scheduling"], "answer": "Stores process information" },
+              { "id": 4, "question": "What is the first process executed by the OS?", "options": ["Init", "Shell", "Bootloader", "Task Manager"], "answer": "Init" },
+              { "id": 5, "question": "What is context switching?", "options": ["Switching from one process to another", "Changing memory addresses", "Rebooting the system", "Deleting a process"], "answer": "Switching from one process to another" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Memory Management",
+            "questions": [
+              { "id": 1, "question": "What is paging?", "options": ["A memory management scheme", "A process scheduling algorithm", "A networking protocol", "A hardware interrupt"], "answer": "A memory management scheme" },
+              { "id": 2, "question": "Which memory allocation method reduces fragmentation?", "options": ["Paging", "Contiguous Allocation", "FIFO", "Round Robin"], "answer": "Paging" },
+              { "id": 3, "question": "What is virtual memory?", "options": ["A storage extension for RAM", "A type of hard disk", "A caching mechanism", "A type of CPU"], "answer": "A storage extension for RAM" },
+              { "id": 4, "question": "Which algorithm is used for page replacement?", "options": ["LRU", "FIFO", "Both A and B", "None"], "answer": "Both A and B" },
+              { "id": 5, "question": "What does MMU stand for?", "options": ["Memory Management Unit", "Main Memory Utility", "Master Management Unit", "Memory Multiprocessing Unit"], "answer": "Memory Management Unit" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "File System",
+            "questions": [
+              { "id": 1, "question": "What is a file system?", "options": ["A method to organize data", "A programming language", "A part of the CPU", "An input device"], "answer": "A method to organize data" },
+              { "id": 2, "question": "Which file system is used in Windows?", "options": ["NTFS", "EXT4", "FAT32", "Both A and C"], "answer": "Both A and C" },
+              { "id": 3, "question": "What is an inode?", "options": ["A data structure in a file system", "A process scheduling algorithm", "A type of virus", "A networking protocol"], "answer": "A data structure in a file system" },
+              { "id": 4, "question": "Which command is used to list files in Linux?", "options": ["ls", "dir", "list", "show"], "answer": "ls" },
+              { "id": 5, "question": "What is the purpose of journaling in a file system?", "options": ["To track changes", "To store passwords", "To speed up execution", "To manage users"], "answer": "To track changes" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Synchronization & Deadlocks",
+            "questions": [
+              { "id": 1, "question": "What is a deadlock?", "options": ["A state where processes wait indefinitely", "A CPU scheduling method", "A memory management scheme", "A networking error"], "answer": "A state where processes wait indefinitely" },
+              { "id": 2, "question": "Which is a necessary condition for deadlock?", "options": ["Mutual Exclusion", "Paging", "Round Robin", "Memory Sharing"], "answer": "Mutual Exclusion" },
+              { "id": 3, "question": "What is a semaphore?", "options": ["A synchronization tool", "A scheduling algorithm", "A networking protocol", "A type of file"], "answer": "A synchronization tool" },
+              { "id": 4, "question": "Which algorithm prevents deadlock?", "options": ["Banker's Algorithm", "FIFO", "Round Robin", "DFS"], "answer": "Banker's Algorithm" },
+              { "id": 5, "question": "What is a critical section?", "options": ["A part of a program that accesses shared resources", "A type of process", "A CPU scheduling method", "A memory segment"], "answer": "A part of a program that accesses shared resources" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "I/O Management",
+            "questions": [
+              { "id": 1, "question": "What does I/O stand for?", "options": ["Input/Output", "Inside/Outside", "Internal/Operation", "Information/Output"], "answer": "Input/Output" },
+              { "id": 2, "question": "Which of the following is an I/O device?", "options": ["Keyboard", "Monitor", "Hard Disk", "All of the above"], "answer": "All of the above" },
+              { "id": 3, "question": "What is spooling?", "options": ["Storing data temporarily in memory", "A CPU scheduling method", "A type of cache", "A type of virus"], "answer": "Storing data temporarily in memory" },
+              { "id": 4, "question": "Which interrupt is used for I/O operations?", "options": ["Hardware Interrupt", "Software Interrupt", "System Call", "All of the above"], "answer": "Hardware Interrupt" },
+              { "id": 5, "question": "What is DMA?", "options": ["Direct Memory Access", "Dynamic Memory Allocation", "Disk Management Algorithm", "Data Management Access"], "answer": "Direct Memory Access" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Software Engineering (SE)",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Software Development Life Cycle (SDLC)",
+            "questions": [
+              { "id": 1, "question": "What does SDLC stand for?", "options": ["Software Development Life Cycle", "System Design and Logical Control", "Software Data Lifecycle Control", "System Development Logic Cycle"], "answer": "Software Development Life Cycle" },
+              { "id": 2, "question": "Which SDLC model follows a sequential approach?", "options": ["Waterfall", "Agile", "Spiral", "RAD"], "answer": "Waterfall" },
+              { "id": 3, "question": "Which phase of SDLC involves requirement gathering?", "options": ["Requirement Analysis", "Design", "Coding", "Testing"], "answer": "Requirement Analysis" },
+              { "id": 4, "question": "Which SDLC model is best suited for rapidly changing requirements?", "options": ["Agile", "Waterfall", "V-Model", "Big Bang"], "answer": "Agile" },
+              { "id": 5, "question": "Which of the following is NOT an SDLC phase?", "options": ["Deployment", "Testing", "Hacking", "Maintenance"], "answer": "Hacking" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Software Design & Architecture",
+            "questions": [
+              { "id": 1, "question": "What is software architecture?", "options": ["High-level structure of software", "A type of programming language", "A network topology", "A software testing method"], "answer": "High-level structure of software" },
+              { "id": 2, "question": "Which of these is a software design principle?", "options": ["Modularity", "High Coupling", "Complexity", "Redundancy"], "answer": "Modularity" },
+              { "id": 3, "question": "Which design pattern ensures a class has only one instance?", "options": ["Singleton", "Factory", "Observer", "Decorator"], "answer": "Singleton" },
+              { "id": 4, "question": "Which architecture pattern is used in MVC?", "options": ["Layered", "Monolithic", "Client-Server", "Microservices"], "answer": "Layered" },
+              { "id": 5, "question": "What is the purpose of UML?", "options": ["Modeling software", "Programming", "Debugging", "Hardware design"], "answer": "Modeling software" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Software Testing",
+            "questions": [
+              { "id": 1, "question": "What is software testing?", "options": ["Process of evaluating software", "A type of programming", "A database technique", "A networking concept"], "answer": "Process of evaluating software" },
+              { "id": 2, "question": "Which testing type is performed without executing the code?", "options": ["Static Testing", "Dynamic Testing", "Functional Testing", "Unit Testing"], "answer": "Static Testing" },
+              { "id": 3, "question": "Which testing method is known as 'glass box' testing?", "options": ["White-box Testing", "Black-box Testing", "Regression Testing", "Exploratory Testing"], "answer": "White-box Testing" },
+              { "id": 4, "question": "What is the purpose of regression testing?", "options": ["Ensuring new changes do not affect existing functionality", "Testing security", "Finding performance issues", "Testing user interface"], "answer": "Ensuring new changes do not affect existing functionality" },
+              { "id": 5, "question": "Which tool is commonly used for automated testing?", "options": ["Selenium", "Photoshop", "PowerPoint", "Notepad"], "answer": "Selenium" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Software Maintenance",
+            "questions": [
+              { "id": 1, "question": "Which is NOT a type of software maintenance?", "options": ["Corrective", "Adaptive", "Preventive", "Harmful"], "answer": "Harmful" },
+              { "id": 2, "question": "What is corrective maintenance?", "options": ["Fixing software errors", "Improving performance", "Adding new features", "Testing software"], "answer": "Fixing software errors" },
+              { "id": 3, "question": "Which type of maintenance deals with enhancing software?", "options": ["Perfective", "Corrective", "Preventive", "None"], "answer": "Perfective" },
+              { "id": 4, "question": "What is adaptive maintenance?", "options": ["Modifying software to work in a new environment", "Fixing security issues", "Adding new features", "Removing bugs"], "answer": "Modifying software to work in a new environment" },
+              { "id": 5, "question": "Which document is updated during software maintenance?", "options": ["User Manual", "Requirement Specification", "Test Plan", "Design Document"], "answer": "Requirement Specification" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Software Project Management",
+            "questions": [
+              { "id": 1, "question": "What is software project management?", "options": ["Managing software development process", "Writing code", "Debugging software", "Testing software"], "answer": "Managing software development process" },
+              { "id": 2, "question": "Which is a key aspect of project management?", "options": ["Planning", "Coding", "Hacking", "Gaming"], "answer": "Planning" },
+              { "id": 3, "question": "What is risk management in software projects?", "options": ["Identifying and reducing risks", "Deleting bugs", "Writing test cases", "Hiring developers"], "answer": "Identifying and reducing risks" },
+              { "id": 4, "question": "What does Gantt chart represent?", "options": ["Project Schedule", "Programming Language", "Software Testing", "CPU Scheduling"], "answer": "Project Schedule" },
+              { "id": 5, "question": "What is the purpose of feasibility study?", "options": ["Determining project viability", "Writing documentation", "Testing software", "Managing memory"], "answer": "Determining project viability" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "C Programming",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Basics of C",
+            "questions": [
+              { "id": 1, "question": "Who is the father of C programming?", "options": ["Dennis Ritchie", "James Gosling", "Bjarne Stroustrup", "Guido van Rossum"], "answer": "Dennis Ritchie" },
+              { "id": 2, "question": "Which keyword is used to declare a constant in C?", "options": ["const", "constant", "final", "static"], "answer": "const" },
+              { "id": 3, "question": "Which data type is used to store a single character in C?", "options": ["char", "string", "int", "float"], "answer": "char" },
+              { "id": 4, "question": "What is the format specifier for an integer?", "options": ["%d", "%f", "%c", "%s"], "answer": "%d" },
+              { "id": 5, "question": "Which function is used to print output in C?", "options": ["printf()", "cout<<", "print()", "System.out.println()"], "answer": "printf()" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Control Statements",
+            "questions": [
+              { "id": 1, "question": "Which loop executes at least once?", "options": ["do-while", "while", "for", "None"], "answer": "do-while" },
+              { "id": 2, "question": "Which statement is used to exit a loop in C?", "options": ["break", "continue", "return", "stop"], "answer": "break" },
+              { "id": 3, "question": "Which statement skips an iteration of the loop?", "options": ["continue", "break", "goto", "return"], "answer": "continue" },
+              { "id": 4, "question": "Which keyword is used for decision-making in C?", "options": ["if", "switch", "both if and switch", "None"], "answer": "both if and switch" },
+              { "id": 5, "question": "Which loop is used when the number of iterations is known?", "options": ["for", "while", "do-while", "None"], "answer": "for" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Functions in C",
+            "questions": [
+              { "id": 1, "question": "Which keyword is used to define a function?", "options": ["void", "def", "function", "None"], "answer": "void" },
+              { "id": 2, "question": "What is the return type of main() function in C?", "options": ["int", "void", "float", "char"], "answer": "int" },
+              { "id": 3, "question": "Which keyword is used to return a value from a function?", "options": ["return", "break", "exit", "end"], "answer": "return" },
+              { "id": 4, "question": "Which function is used to find the length of a string?", "options": ["strlen()", "length()", "size()", "strlength()"], "answer": "strlen()" },
+              { "id": 5, "question": "What is a function that calls itself called?", "options": ["Recursive Function", "Nested Function", "Inline Function", "Lambda Function"], "answer": "Recursive Function" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Arrays & Pointers",
+            "questions": [
+              { "id": 1, "question": "Which operator is used to access an array element?", "options": ["[]", "()", "{}", "<>"], "answer": "[]" },
+              { "id": 2, "question": "What is the index of the first element in an array?", "options": ["0", "1", "-1", "Depends on compiler"], "answer": "0" },
+              { "id": 3, "question": "What does a pointer store?", "options": ["Memory Address", "Variable Value", "Function Name", "Loop Counter"], "answer": "Memory Address" },
+              { "id": 4, "question": "Which symbol is used to declare a pointer?", "options": ["*", "&", "%", "^"], "answer": "*" },
+              { "id": 5, "question": "How do you get the address of a variable?", "options": ["&variable", "*variable", "@variable", "#variable"], "answer": "&variable" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "File Handling in C",
+            "questions": [
+              { "id": 1, "question": "Which function is used to open a file in C?", "options": ["fopen()", "open()", "file_open()", "file()"], "answer": "fopen()" },
+              { "id": 2, "question": "Which mode is used to write a file?", "options": ["w", "r", "a", "b"], "answer": "w" },
+              { "id": 3, "question": "What does 'r' mode do when opening a file?", "options": ["Reads the file", "Writes to the file", "Appends data", "Deletes the file"], "answer": "Reads the file" },
+              { "id": 4, "question": "Which function is used to close a file?", "options": ["fclose()", "close()", "file_close()", "endfile()"], "answer": "fclose()" },
+              { "id": 5, "question": "Which function is used to read data from a file?", "options": ["fread()", "fwrite()", "readfile()", "scanfile()"], "answer": "fread()" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "C++ Programming",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Basics of C++",
+            "questions": [
+              { "id": 1, "question": "Who is the father of C++ programming?", "options": ["Bjarne Stroustrup", "Dennis Ritchie", "James Gosling", "Guido van Rossum"], "answer": "Bjarne Stroustrup" },
+              { "id": 2, "question": "Which symbol is used for single-line comments in C++?", "options": ["//", "/*", "#", "--"], "answer": "//" },
+              { "id": 3, "question": "Which operator is used for scope resolution in C++?", "options": ["::", ".", "->", ":"], "answer": "::" },
+              { "id": 4, "question": "Which keyword is used to define a constant variable in C++?", "options": ["const", "final", "static", "constant"], "answer": "const" },
+              { "id": 5, "question": "Which header file is used for input and output in C++?", "options": ["iostream", "stdio.h", "conio.h", "fstream"], "answer": "iostream" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Object-Oriented Programming (OOP)",
+            "questions": [
+              { "id": 1, "question": "Which of the following is NOT a feature of OOP?", "options": ["Encapsulation", "Polymorphism", "Recursion", "Inheritance"], "answer": "Recursion" },
+              { "id": 2, "question": "Which keyword is used to create a class in C++?", "options": ["class", "struct", "object", "define"], "answer": "class" },
+              { "id": 3, "question": "What is an instance of a class called?", "options": ["Object", "Method", "Function", "Structure"], "answer": "Object" },
+              { "id": 4, "question": "Which function is called automatically when an object is created?", "options": ["Constructor", "Destructor", "Member Function", "Operator"], "answer": "Constructor" },
+              { "id": 5, "question": "Which keyword is used to inherit a class in C++?", "options": ["extends", "inherits", "super", "public"], "answer": "public" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Pointers and References",
+            "questions": [
+              { "id": 1, "question": "Which operator is used to get the address of a variable?", "options": ["&", "*", "@", "#"], "answer": "&" },
+              { "id": 2, "question": "Which operator is used to access the value stored at a pointer address?", "options": ["*", "&", "->", "::"], "answer": "*" },
+              { "id": 3, "question": "What is a reference variable in C++?", "options": ["Alias for another variable", "Pointer", "Object", "Structure"], "answer": "Alias for another variable" },
+              { "id": 4, "question": "What is the default value of an uninitialized pointer?", "options": ["NULL", "0", "Garbage value", "None"], "answer": "NULL" },
+              { "id": 5, "question": "Which symbol is used to declare a pointer?", "options": ["*", "&", "->", "^"], "answer": "*" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "STL (Standard Template Library)",
+            "questions": [
+              { "id": 1, "question": "Which header file is required for using vectors in C++?", "options": ["vector", "array", "list", "map"], "answer": "vector" },
+              { "id": 2, "question": "Which container follows the LIFO principle?", "options": ["Stack", "Queue", "Vector", "Map"], "answer": "Stack" },
+              { "id": 3, "question": "Which STL container stores key-value pairs?", "options": ["Map", "Vector", "List", "Queue"], "answer": "Map" },
+              { "id": 4, "question": "Which function is used to insert an element into a vector?", "options": ["push_back()", "insert()", "add()", "append()"], "answer": "push_back()" },
+              { "id": 5, "question": "Which STL container is implemented as a dynamic array?", "options": ["Vector", "List", "Deque", "Map"], "answer": "Vector" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "File Handling in C++",
+            "questions": [
+              { "id": 1, "question": "Which header file is used for file handling in C++?", "options": ["fstream", "iostream", "stdio.h", "file"], "answer": "fstream" },
+              { "id": 2, "question": "Which function is used to open a file in C++?", "options": ["open()", "file()", "fopen()", "read()"], "answer": "open()" },
+              { "id": 3, "question": "Which mode is used to read a file?", "options": ["ios::in", "ios::out", "ios::app", "ios::binary"], "answer": "ios::in" },
+              { "id": 4, "question": "Which function is used to close a file?", "options": ["close()", "endfile()", "stop()", "exit()"], "answer": "close()" },
+              { "id": 5, "question": "Which function is used to write data into a file?", "options": ["write()", "print()", "insert()", "output()"], "answer": "write()" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Python Programming",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Python Basics",
+            "questions": [
+              { "id": 1, "question": "Who developed Python?", "options": ["Guido van Rossum", "Dennis Ritchie", "James Gosling", "Bjarne Stroustrup"], "answer": "Guido van Rossum" },
+              { "id": 2, "question": "Which keyword is used to define a function in Python?", "options": ["def", "function", "func", "define"], "answer": "def" },
+              { "id": 3, "question": "Which symbol is used for single-line comments in Python?", "options": ["#", "//", "/*", "--"], "answer": "#" },
+              { "id": 4, "question": "Which function is used to display output in Python?", "options": ["print()", "output()", "echo()", "display()"], "answer": "print()" },
+              { "id": 5, "question": "Which data type is mutable in Python?", "options": ["List", "Tuple", "String", "Integer"], "answer": "List" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Object-Oriented Programming (OOP) in Python",
+            "questions": [
+              { "id": 1, "question": "Which keyword is used to define a class in Python?", "options": ["class", "struct", "object", "define"], "answer": "class" },
+              { "id": 2, "question": "Which method is called automatically when an object is created?", "options": ["__init__", "__main__", "__str__", "__object__"], "answer": "__init__" },
+              { "id": 3, "question": "What is self in Python?", "options": ["A reference to the instance", "A function", "A variable", "A class name"], "answer": "A reference to the instance" },
+              { "id": 4, "question": "Which concept allows using the same method name with different functionalities?", "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"], "answer": "Polymorphism" },
+              { "id": 5, "question": "Which keyword is used for inheritance in Python?", "options": ["extends", "inherits", "super", "None of these"], "answer": "None of these" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Python Data Structures",
+            "questions": [
+              { "id": 1, "question": "Which data structure stores elements in key-value pairs?", "options": ["Dictionary", "List", "Tuple", "Set"], "answer": "Dictionary" },
+              { "id": 2, "question": "Which data structure does not allow duplicate values?", "options": ["Set", "List", "Dictionary", "Tuple"], "answer": "Set" },
+              { "id": 3, "question": "Which method is used to add an element to a list?", "options": ["append()", "add()", "insert()", "push()"], "answer": "append()" },
+              { "id": 4, "question": "Which function is used to get the length of a list?", "options": ["len()", "size()", "count()", "length()"], "answer": "len()" },
+              { "id": 5, "question": "What will `list(range(5))` return?", "options": ["[0, 1, 2, 3, 4]", "[1, 2, 3, 4, 5]", "[0, 1, 2, 3, 4, 5]", "[1, 2, 3, 4]"], "answer": "[0, 1, 2, 3, 4]" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Python File Handling",
+            "questions": [
+              { "id": 1, "question": "Which function is used to open a file in Python?", "options": ["open()", "file()", "fopen()", "read()"], "answer": "open()" },
+              { "id": 2, "question": "Which mode is used to read a file?", "options": ["r", "w", "a", "rw"], "answer": "r" },
+              { "id": 3, "question": "Which method is used to read the entire file?", "options": ["read()", "readline()", "readlines()", "fetch()"], "answer": "read()" },
+              { "id": 4, "question": "Which method is used to close a file?", "options": ["close()", "exit()", "stop()", "end()"], "answer": "close()" },
+              { "id": 5, "question": "Which function is used to write data into a file?", "options": ["write()", "print()", "insert()", "output()"], "answer": "write()" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Python Exception Handling",
+            "questions": [
+              { "id": 1, "question": "Which keyword is used to handle exceptions in Python?", "options": ["try", "catch", "finally", "throw"], "answer": "try" },
+              { "id": 2, "question": "Which keyword is used to define an exception block?", "options": ["except", "catch", "error", "handle"], "answer": "except" },
+              { "id": 3, "question": "Which function is used to raise an exception?", "options": ["raise", "throw", "error", "except"], "answer": "raise" },
+              { "id": 4, "question": "Which block will execute regardless of exception occurrence?", "options": ["finally", "try", "except", "catch"], "answer": "finally" },
+              { "id": 5, "question": "What is the base class for all exceptions in Python?", "options": ["Exception", "BaseException", "Error", "RuntimeError"], "answer": "BaseException" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Java Programming",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Java Basics",
+            "questions": [
+              { "id": 1, "question": "Who developed Java?", "options": ["James Gosling", "Dennis Ritchie", "Guido van Rossum", "Bjarne Stroustrup"], "answer": "James Gosling" },
+              { "id": 2, "question": "Which keyword is used to define a class in Java?", "options": ["class", "struct", "object", "define"], "answer": "class" },
+              { "id": 3, "question": "Which symbol is used for single-line comments in Java?", "options": ["//", "#", "/*", "--"], "answer": "//" },
+              { "id": 4, "question": "Which function is used to display output in Java?", "options": ["System.out.println()", "console.log()", "print()", "echo()"], "answer": "System.out.println()" },
+              { "id": 5, "question": "Which data type is used to store decimal values in Java?", "options": ["float", "int", "boolean", "char"], "answer": "float" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Object-Oriented Programming (OOP) in Java",
+            "questions": [
+              { "id": 1, "question": "Which keyword is used to create an object in Java?", "options": ["new", "create", "object", "instance"], "answer": "new" },
+              { "id": 2, "question": "Which method is called automatically when an object is created?", "options": ["constructor", "init()", "main()", "setup()"], "answer": "constructor" },
+              { "id": 3, "question": "Which OOP principle is used for code reusability?", "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"], "answer": "Inheritance" },
+              { "id": 4, "question": "Which keyword is used for inheritance in Java?", "options": ["extends", "inherits", "super", "base"], "answer": "extends" },
+              { "id": 5, "question": "Which concept allows multiple methods with the same name but different parameters?", "options": ["Polymorphism", "Encapsulation", "Abstraction", "Inheritance"], "answer": "Polymorphism" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Java Data Structures",
+            "questions": [
+              { "id": 1, "question": "Which collection allows duplicate elements?", "options": ["List", "Set", "Map", "Queue"], "answer": "List" },
+              { "id": 2, "question": "Which collection stores elements in key-value pairs?", "options": ["Map", "List", "Set", "Array"], "answer": "Map" },
+              { "id": 3, "question": "Which data structure does not allow duplicate values?", "options": ["Set", "List", "Map", "Queue"], "answer": "Set" },
+              { "id": 4, "question": "Which method is used to add an element to an ArrayList?", "options": ["add()", "insert()", "push()", "append()"], "answer": "add()" },
+              { "id": 5, "question": "Which Java interface represents a Last-In-First-Out (LIFO) structure?", "options": ["Stack", "Queue", "Deque", "List"], "answer": "Stack" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Java File Handling",
+            "questions": [
+              { "id": 1, "question": "Which class is used to read a file in Java?", "options": ["FileReader", "FileWriter", "FileStream", "Scanner"], "answer": "FileReader" },
+              { "id": 2, "question": "Which method is used to write data into a file?", "options": ["write()", "print()", "insert()", "output()"], "answer": "write()" },
+              { "id": 3, "question": "Which package contains the File class in Java?", "options": ["java.io", "java.util", "java.file", "java.text"], "answer": "java.io" },
+              { "id": 4, "question": "Which method is used to check if a file exists?", "options": ["exists()", "isFile()", "checkFile()", "validate()"], "answer": "exists()" },
+              { "id": 5, "question": "Which class is used to read user input from a file?", "options": ["Scanner", "BufferedReader", "FileInputStream", "FileReader"], "answer": "Scanner" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Java Exception Handling",
+            "questions": [
+              { "id": 1, "question": "Which keyword is used to handle exceptions in Java?", "options": ["try", "catch", "finally", "throw"], "answer": "try" },
+              { "id": 2, "question": "Which block will execute regardless of exception occurrence?", "options": ["finally", "try", "catch", "handle"], "answer": "finally" },
+              { "id": 3, "question": "Which class is the parent of all exceptions in Java?", "options": ["Throwable", "Exception", "Error", "RuntimeException"], "answer": "Throwable" },
+              { "id": 4, "question": "Which keyword is used to manually raise an exception?", "options": ["throw", "raise", "exception", "error"], "answer": "throw" },
+              { "id": 5, "question": "Which method provides the description of an exception?", "options": ["getMessage()", "printStackTrace()", "toString()", "describe()"], "answer": "getMessage()" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Aptitude",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Number System",
+            "questions": [
+              { "id": 1, "question": "What is the least prime number?", "options": ["1", "2", "3", "5"], "answer": "2" },
+              { "id": 2, "question": "Which of these is a perfect square?", "options": ["35", "49", "51", "63"], "answer": "49" },
+              { "id": 3, "question": "What is the remainder when 9 is divided by 2?", "options": ["0", "1", "2", "3"], "answer": "1" },
+              { "id": 4, "question": "Which of the following is an even number?", "options": ["11", "23", "32", "45"], "answer": "32" },
+              { "id": 5, "question": "What is the sum of digits of 345?", "options": ["11", "12", "13", "14"], "answer": "12" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Percentage",
+            "questions": [
+              { "id": 1, "question": "What is 50% of 200?", "options": ["50", "100", "150", "200"], "answer": "100" },
+              { "id": 2, "question": "If a number is increased by 20%, what is its new value if the original was 50?", "options": ["55", "60", "65", "70"], "answer": "60" },
+              { "id": 3, "question": "What is 25% of 80?", "options": ["10", "15", "20", "25"], "answer": "20" },
+              { "id": 4, "question": "If a shirt costing 500 is sold at a 10% discount, what is the selling price?", "options": ["400", "450", "500", "550"], "answer": "450" },
+              { "id": 5, "question": "What is 12% of 400?", "options": ["40", "44", "48", "52"], "answer": "48" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Time & Work",
+            "questions": [
+              { "id": 1, "question": "If A can complete a task in 10 days and B in 15 days, how long will they take together?", "options": ["5", "6", "7", "8"], "answer": "6" },
+              { "id": 2, "question": "If 4 people can complete a task in 8 days, how long will 8 people take?", "options": ["2", "3", "4", "5"], "answer": "4" },
+              { "id": 3, "question": "If A is twice as fast as B, and B can complete a task in 12 days, how long will A take?", "options": ["4", "5", "6", "8"], "answer": "6" },
+              { "id": 4, "question": "If 3 men can paint a wall in 12 hours, how long will 6 men take?", "options": ["4", "6", "8", "10"], "answer": "6" },
+              { "id": 5, "question": "A tap can fill a tank in 4 hours, and another tap empties it in 6 hours. How long will it take to fill?", "options": ["8", "10", "12", "14"], "answer": "12" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Profit & Loss",
+            "questions": [
+              { "id": 1, "question": "If a product costing 200 is sold for 250, what is the profit percentage?", "options": ["20%", "25%", "30%", "40%"], "answer": "25%" },
+              { "id": 2, "question": "A person sells an article for 900 making a loss of 10%. What was the cost price?", "options": ["800", "850", "900", "1000"], "answer": "1000" },
+              { "id": 3, "question": "A cycle was bought for 1200 and sold at a profit of 20%. What was the selling price?", "options": ["1300", "1400", "1500", "1600"], "answer": "1440" },
+              { "id": 4, "question": "If the selling price of an article is 400 and profit is 25%, what was the cost price?", "options": ["250", "300", "320", "350"], "answer": "320" },
+              { "id": 5, "question": "A man sells a pen for 50 at a 20% loss. What was the cost price?", "options": ["55", "60", "62", "65"], "answer": "62.5" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Simple & Compound Interest",
+            "questions": [
+              { "id": 1, "question": "If Rs.1000 is invested at 5% annual interest, what will be the simple interest in 2 years?", "options": ["50", "100", "150", "200"], "answer": "100" },
+              { "id": 2, "question": "What will be the compound interest on Rs.2000 at 5% for 2 years?", "options": ["100", "105", "110", "120"], "answer": "105" },
+              { "id": 3, "question": "If the principal amount is 5000, interest rate is 10% per annum, what will be the simple interest in 3 years?", "options": ["1000", "1200", "1500", "1800"], "answer": "1500" },
+              { "id": 4, "question": "What will be the amount after 2 years if Rs.5000 is invested at 5% compound interest?", "options": ["5250", "5300", "5400", "5500"], "answer": "5512.5" },
+              { "id": 5, "question": "If a sum becomes double in 10 years at simple interest, what is the rate of interest?", "options": ["5%", "7%", "10%", "12%"], "answer": "10%" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Data Structures and Algorithms",
+        "topics": [
+          {
+            "id": 1,
+            "name": "Arrays",
+            "questions": [
+              { "id": 1, "question": "What is the time complexity of accessing an element in an array?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": "O(1)" },
+              { "id": 2, "question": "Which data structure is used to implement an array?", "options": ["Linked List", "Heap", "Contiguous Memory", "Tree"], "answer": "Contiguous Memory" },
+              { "id": 3, "question": "Which operation is costly in an array?", "options": ["Insertion", "Deletion", "Accessing", "Traversal"], "answer": "Insertion" },
+              { "id": 4, "question": "What is the best case time complexity of a linear search?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": "O(1)" },
+              { "id": 5, "question": "Which sorting algorithm works best on sorted arrays?", "options": ["Bubble Sort", "Merge Sort", "Quick Sort", "Insertion Sort"], "answer": "Insertion Sort" }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Linked List",
+            "questions": [
+              { "id": 1, "question": "Which type of linked list has both forward and backward traversal?", "options": ["Singly Linked List", "Doubly Linked List", "Circular Linked List", "Array"], "answer": "Doubly Linked List" },
+              { "id": 2, "question": "What is the time complexity for inserting an element at the beginning of a linked list?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": "O(1)" },
+              { "id": 3, "question": "Which of the following allows memory-efficient traversal in a linked list?", "options": ["Stack", "Queue", "Two Pointers", "Tree"], "answer": "Two Pointers" },
+              { "id": 4, "question": "What is the main advantage of a linked list over an array?", "options": ["Fast Access", "Dynamic Memory Allocation", "More Space", "Better Cache Performance"], "answer": "Dynamic Memory Allocation" },
+              { "id": 5, "question": "Which operation is costly in a singly linked list?", "options": ["Insertion", "Traversal", "Deletion", "Random Access"], "answer": "Random Access" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Stacks and Queues",
+            "questions": [
+              { "id": 1, "question": "Which data structure follows Last In First Out (LIFO)?", "options": ["Queue", "Stack", "Heap", "Array"], "answer": "Stack" },
+              { "id": 2, "question": "What is the time complexity of Push operation in a stack?", "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"], "answer": "O(1)" },
+              { "id": 3, "question": "Which of the following is used for implementing recursion?", "options": ["Queue", "Stack", "Array", "Tree"], "answer": "Stack" },
+              { "id": 4, "question": "Which data structure is used to implement a queue?", "options": ["Array", "Linked List", "Both", "None"], "answer": "Both" },
+              { "id": 5, "question": "What is the best implementation for a queue where insertions happen at one end and deletions at the other?", "options": ["Circular Queue", "Deque", "Priority Queue", "Double-ended Queue"], "answer": "Circular Queue" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Trees",
+            "questions": [
+              { "id": 1, "question": "What is the maximum number of children a binary tree node can have?", "options": ["1", "2", "3", "4"], "answer": "2" },
+              { "id": 2, "question": "Which traversal technique visits the left subtree, root, and then right subtree?", "options": ["Preorder", "Postorder", "Inorder", "Level Order"], "answer": "Inorder" },
+              { "id": 3, "question": "What is the time complexity of searching in a balanced binary search tree?", "options": ["O(1)", "O(n)", "O(log n)", "O(n log n)"], "answer": "O(log n)" },
+              { "id": 4, "question": "Which type of tree is used in heap data structure?", "options": ["Binary Search Tree", "AVL Tree", "Complete Binary Tree", "B-Tree"], "answer": "Complete Binary Tree" },
+              { "id": 5, "question": "Which tree balancing technique is used in Red-Black trees?", "options": ["Rotation", "Splitting", "Merging", "Reordering"], "answer": "Rotation" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Graphs",
+            "questions": [
+              { "id": 1, "question": "Which algorithm is used to find the shortest path in a weighted graph?", "options": ["DFS", "BFS", "Dijkstra's Algorithm", "Prim's Algorithm"], "answer": "Dijkstra's Algorithm" },
+              { "id": 2, "question": "Which representation of graphs uses adjacency lists?", "options": ["Matrix", "List", "Both", "None"], "answer": "List" },
+              { "id": 3, "question": "Which traversal technique uses a queue?", "options": ["DFS", "BFS", "Dijkstra", "Kruskal"], "answer": "BFS" },
+              { "id": 4, "question": "Which algorithm is used to detect cycles in a directed graph?", "options": ["Dijkstra", "Bellman-Ford", "Floyd-Warshall", "DFS Cycle Detection"], "answer": "DFS Cycle Detection" },
+              { "id": 5, "question": "Which of the following algorithms is used for Minimum Spanning Tree?", "options": ["Kruskal's Algorithm", "Dijkstra's Algorithm", "Bellman-Ford", "Floyd-Warshall"], "answer": "Kruskal's Algorithm" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
